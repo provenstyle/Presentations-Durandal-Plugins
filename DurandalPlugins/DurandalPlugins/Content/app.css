@@ -11,3 +11,15 @@
 .hidden {
     display: none;
 }
+
+div.nested {
+   margin-top: 50px;
+}
+
+.nested h2 {
+   margin-left: 50px;
+}
+
+.nested h3 {
+   margin-left: 100px;
+}
