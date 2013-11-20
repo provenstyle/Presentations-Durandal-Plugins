@@ -140,6 +140,10 @@
   <ItemGroup>
     <Content Include="App\domain\person.js" />
     <Content Include="App\main.js" />
+    <Content Include="App\observable\MessageTwo.html" />
+    <Content Include="App\observable\MessageTwo.js" />
+    <Content Include="App\observable\MessageOne.html" />
+    <Content Include="App\observable\MessageOne.js" />
     <Content Include="App\observable\people.html" />
     <Content Include="App\observable\people.js" />
     <Content Include="App\observable\person.html" />
