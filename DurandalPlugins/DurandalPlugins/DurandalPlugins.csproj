@@ -138,6 +138,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\domain\person.js" />
     <Content Include="App\main.js" />
     <Content Include="App\observable\people.html" />
     <Content Include="App\observable\people.js" />
