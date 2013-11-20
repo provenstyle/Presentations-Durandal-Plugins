@@ -1,4 +1,13 @@
 ﻿.sidepanel {
     width: 125px;
+    margin-top: 0px;
     float: left;
+}
+
+.content {
+    margin-left: 125px;
+}
+
+.hidden {
+    display: none;
 }
