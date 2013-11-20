@@ -10,7 +10,7 @@
             router.map([
                 { route: '', title:'Welcome', moduleId: 'viewmodels/welcome', nav: true },
                 { route: 'observable*details', moduleId: 'observable/index', title: 'Observable Plugin', hash: '#observable', nav: true },
-                { route: 'routeParameters(/:param1)', moduleId: 'routeParameters/index', title: 'Route Parameters', hash: '#routeParameters', nav: true }
+                { route: 'routeParameters(/:param1)(/:param2)', moduleId: 'routeParameters/index', title: 'Route Parameters', hash: '#routeParameters', nav: true }
             ]).buildNavigationModel();
             
             return router.activate();

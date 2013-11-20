@@ -1,13 +1,16 @@
 ﻿define([], function() {
 
-    var param = '';
+    var paramOne = '';
+    var paramTwo = '';
 
-    var activate = function(param1) {
-        this.param = param1;
+    var activate = function(first, second) {
+       this.paramOne = first;
+       this.paramTwo = second;
     };
 
     return {
         activate: activate,
-        param: param
+        paramOne: paramOne,
+        paramTwo: paramTwo
     };
 });
